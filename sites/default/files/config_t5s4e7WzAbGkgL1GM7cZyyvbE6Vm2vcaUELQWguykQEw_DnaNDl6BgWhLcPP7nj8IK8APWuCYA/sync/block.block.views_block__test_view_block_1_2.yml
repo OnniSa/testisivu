@@ -1,0 +1,24 @@
+uuid: fb3ab64d-5696-4dba-820a-1963ea5b3c4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.test_view
+  module:
+    - views
+  theme:
+    - nexus
+id: views_block__test_view_block_1_2
+theme: nexus
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_block:test_view-block_1'
+settings:
+  id: 'views_block:test_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

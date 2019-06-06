@@ -1,0 +1,9 @@
+uuid: 7a372186-91f6-43b3-9bf2-e7428ec3377c
+langcode: en
+status: true
+dependencies: {  }
+id: phone_number
+label: 'Phone number'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

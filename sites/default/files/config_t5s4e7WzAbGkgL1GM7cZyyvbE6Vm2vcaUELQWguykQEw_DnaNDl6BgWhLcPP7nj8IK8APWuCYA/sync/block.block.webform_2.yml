@@ -1,0 +1,25 @@
+uuid: f642b8d9-8cba-46c1-ade8-f3344ed5f251
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.webform1
+  module:
+    - webform
+  theme:
+    - bartik
+id: webform_2
+theme: bartik
+region: sidebar_second
+weight: -8
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Super Siisti Webinaari'
+  provider: webform
+  label_display: visible
+  webform_id: webform1
+  default_data: ''
+  redirect: false
+visibility: {  }

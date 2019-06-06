@@ -1,0 +1,33 @@
+uuid: 6c0b5f28-cd2e-4855-980b-30fd298579f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - ctools
+    - webform
+  theme:
+    - bartik
+id: webform
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: contact
+  provider: webform
+  label_display: visible
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility:
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    bundles:
+      contact: contact
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'

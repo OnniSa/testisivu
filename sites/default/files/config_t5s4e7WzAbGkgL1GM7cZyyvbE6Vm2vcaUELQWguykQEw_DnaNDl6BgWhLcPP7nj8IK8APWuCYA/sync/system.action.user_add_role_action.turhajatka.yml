@@ -1,0 +1,14 @@
+uuid: dfb8e307-b138-498b-9fad-69bf573f1e26
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.turhajatka
+  module:
+    - user
+id: user_add_role_action.turhajatka
+label: 'Add the turhajätkä role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: turhajatka

@@ -1,0 +1,14 @@
+uuid: 78c11a85-c424-4a16-986f-411b596a7a55
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.turhajatka
+  module:
+    - user
+id: user_remove_role_action.turhajatka
+label: 'Remove the turhajätkä role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: turhajatka
