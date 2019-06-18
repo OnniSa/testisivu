@@ -1,0 +1,20 @@
+uuid: da7c5a39-8499-48e7-82b5-4cf5d9de3a4f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - testiteema
+_core:
+  default_config_hash: _TaW9xs_AMZ323Xy33YJyVAYEBMy5JH_hOmlJbzgNnM
+id: testiteema_page_title
+theme: testiteema
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: e2c68472-cc62-4b8d-a153-45571c058a95
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - testiteema
+_core:
+  default_config_hash: 0YfrEJk6cHP9tEHKCb3K27S3D5lROTNmMGgqeSt-cWE
+id: testiteema_tools
+theme: testiteema
+region: header
+weight: -5
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

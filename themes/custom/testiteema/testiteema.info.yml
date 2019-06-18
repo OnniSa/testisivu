@@ -1,0 +1,16 @@
+name: 'testiteema'
+type: theme
+description: 'my site theme'
+core: 8.x
+
+
+regions:
+  header: Header
+  messages: Messages
+  navigation: Navigation
+  content: Content
+  footer: Footer
+  
+libraries:
+  - testiteema/global-styling
+  - testiteema/global-scripting

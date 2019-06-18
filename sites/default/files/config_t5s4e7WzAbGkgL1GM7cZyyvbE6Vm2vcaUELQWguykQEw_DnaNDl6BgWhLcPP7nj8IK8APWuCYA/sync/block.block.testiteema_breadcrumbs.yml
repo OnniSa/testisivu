@@ -1,0 +1,22 @@
+uuid: c5e8bbcc-32f8-439e-a0e6-f89d5e411507
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - testiteema
+_core:
+  default_config_hash: NQr0oD4xpdVUQYKiNIOzCtjpyeCQYCgNi1a4on8lyC0
+id: testiteema_breadcrumbs
+theme: testiteema
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

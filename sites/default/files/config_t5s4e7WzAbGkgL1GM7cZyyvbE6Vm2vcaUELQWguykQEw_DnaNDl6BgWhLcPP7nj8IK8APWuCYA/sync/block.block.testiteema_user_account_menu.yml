@@ -1,0 +1,27 @@
+uuid: c645af95-1c23-4d4f-9e94-06e4b5cae19b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - testiteema
+_core:
+  default_config_hash: CcxMUXh59uGF9jT9SLxBv0S0GJJtsWh2Q1I2Al7tTB4
+id: testiteema_user_account_menu
+theme: testiteema
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

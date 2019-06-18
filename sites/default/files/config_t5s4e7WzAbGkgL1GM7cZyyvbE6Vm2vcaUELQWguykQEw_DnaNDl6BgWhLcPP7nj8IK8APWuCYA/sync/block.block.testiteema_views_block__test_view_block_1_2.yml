@@ -1,0 +1,24 @@
+uuid: bef68244-46de-4df5-a488-924df7bbf246
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.test_view
+  module:
+    - views
+  theme:
+    - testiteema
+id: testiteema_views_block__test_view_block_1_2
+theme: testiteema
+region: header
+weight: -4
+provider: null
+plugin: 'views_block:test_view-block_1'
+settings:
+  id: 'views_block:test_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

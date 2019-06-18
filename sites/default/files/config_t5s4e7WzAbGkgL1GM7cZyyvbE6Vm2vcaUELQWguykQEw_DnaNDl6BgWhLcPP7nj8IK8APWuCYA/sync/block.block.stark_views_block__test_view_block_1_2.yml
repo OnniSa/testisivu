@@ -1,0 +1,24 @@
+uuid: 49f9ca04-f089-4f53-a98c-a92dad021a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.test_view
+  module:
+    - views
+  theme:
+    - stark
+id: stark_views_block__test_view_block_1_2
+theme: stark
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_block:test_view-block_1'
+settings:
+  id: 'views_block:test_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
